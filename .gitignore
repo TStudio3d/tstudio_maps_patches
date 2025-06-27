@@ -1,0 +1,78 @@
+# TStudio Maps Patches - .gitignore
+
+# ZIP Distribution Files
+*.zip
+*.rar
+*.7z
+dist/
+releases/
+
+# Development Files
+.vscode/
+.idea/
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Server Logs
+*.log
+logs/
+cache/
+
+# FiveM Cache
+cache.yml
+fxserver.exe
+server.exe
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.orig
+
+# Editor Temp Files
+*.swp
+*.swo
+*~
+
+# System Files
+desktop.ini
+.directory
+
+# Documentation Drafts
+DRAFT_*
+TODO.md
+NOTES.md
+
+# Test Files
+test/
+testing/
+debug/
+
+# Archive Extraction Temp
+__MACOSX/
+
+# Node.js (if using any build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using any scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Local Configuration
+config.local.*
+.env
+.env.local
+
+# Build artifacts
+build/
+output/
