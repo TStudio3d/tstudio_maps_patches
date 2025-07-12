@@ -4,7 +4,14 @@ A collection of map patches specifically designed for **TStudio Maps**, providin
 
 ## Overview
 
-This repository contains multiple map patches that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
+This repository contains **26+ map patches** that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
+
+### 📊 **Patch Categories**
+- **🏛️ MRPD Patches**: 7 police department variations
+- **🏠 MrPark Area**: 10 location-specific patches  
+- **🏥 Medical/Hospital**: 4 Pillbox Hospital variants
+- **🏭 General Locations**: 4 miscellaneous area fixes
+- **🏁 Opium Area**: 3 racing and investigation patches
 
 ## 📋 Requirements
 
@@ -40,7 +47,7 @@ ensure [tstudio_maps]
 
 ## Available Patches
 
-### Location Patches
+### General Location Patches
 
 | Patch Name | Description | Area |
 |------------|-------------|------|
@@ -48,8 +55,6 @@ ensure [tstudio_maps]
 | `tstudio_zpatch_bw_cardealer_taxi` | Car dealer and taxi area | Business District |
 | `tstudio_zpatch_garage_kebab` | Garage and kebab shop area | Downtown |
 | `tstudio_zpatch_impound_carrent` | Impound and car rental fixes | Industrial |
-| `tstudio_zpatch_pillbox_garage` | Pillbox Hospital garage area | Medical District |
-| `tstudio_zpatch_pillbox_kebab` | Pillbox kebab shop area | Medical District |
 
 ### MrPark Area Patches
 
@@ -60,9 +65,32 @@ ensure [tstudio_maps]
 | `tstudio_zpatch_mrpark_kebab` | MrPark kebab area | Food service location |
 | `tstudio_zpatch_mrpark_kebab_ls` | MrPark kebab (LS variant) | Los Santos specific |
 | `tstudio_zpatch_mrpark_kebab_th` | MrPark kebab (TH variant) | Enhanced lighting |
+| `tstudio_zpatch_mrpark_kebab_th_ls` | MrPark kebab (TH LS variant) | Combined features |
 | `tstudio_zpatch_mrpark_ls` | MrPark Los Santos area | General fixes |
 | `tstudio_zpatch_mrpark_reds` | MrPark reds area | Battle IPL integration |
 | `tstudio_zpatch_mrpark_th` | MrPark TH area | Enhanced features |
+| `tstudio_zpatch_mrpark_th_ls` | MrPark TH LS area | Combined variant |
+
+### MRPD (Mission Row Police Department) Patches
+
+| Patch Name | Description | Features |
+|------------|-------------|----------|
+| `tstudio_zpatch_ls_kiiya_mrpd` | Los Santos Kiiya MRPD | Enhanced police station |
+| `tstudio_zpatch_mrpark_fm_mrpd` | MrPark FM MRPD | Police department integration |
+| `tstudio_zpatch_mrpark_kiiya_mrpd` | MrPark Kiiya MRPD | Combined police features |
+| `tstudio_zpatch_mrpark_ls_fm_mrpd` | MrPark LS FM MRPD | Los Santos police integration |
+| `tstudio_zpatch_mrpark_ls_kiiya_mrpd` | MrPark LS Kiiya MRPD | Advanced police features |
+| `tstudio_zpatch_mrpark_ls_th_fm_mrpd` | MrPark LS TH FM MRPD | Multi-variant police patch |
+| `tstudio_zpatch_mrpark_th_fm_mrpd` | MrPark TH FM MRPD | TH police department |
+
+### Medical & Hospital Patches
+
+| Patch Name | Description | Features |
+|------------|-------------|----------|
+| `tstudio_zpatch_pillbox_garage` | Pillbox Hospital garage area | Medical District |
+| `tstudio_zpatch_pillbox_garage_kebab` | Pillbox garage with kebab | Combined facilities |
+| `tstudio_zpatch_pillbox_kebab` | Pillbox kebab shop area | Medical District food |
+| `tstudio_zpatch_mrpark_ls_fiv3dev_pillbox` | MrPark LS Fiv3Dev Pillbox | Advanced medical facility |
 
 ### Opium Area Patches
 
@@ -150,4 +178,4 @@ Created by **TStudio3d**
 
 ---
 
-*Last updated: June 2025*
+*Last updated: July 2025*
