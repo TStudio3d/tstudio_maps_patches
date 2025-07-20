@@ -4,10 +4,11 @@ A collection of map patches specifically designed for **TStudio Maps**, providin
 
 ## Overview
 
-This repository contains **26+ map patches** that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
+This repository contains **40+ map patches** that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
 
 ### 📊 **Patch Categories**
-- **🏛️ MRPD Patches**: 7 police department variations
+- **🏛️ MRPD Patches**: 11 police department variations
+- **🍕 Kebab+MRPD Combos**: 8 food service + police combinations
 - **🏠 MrPark Area**: 10 location-specific patches  
 - **🏥 Medical/Hospital**: 4 Pillbox Hospital variants
 - **🏭 General Locations**: 4 miscellaneous area fixes
@@ -76,12 +77,29 @@ ensure [tstudio_maps]
 | Patch Name | Description | Features |
 |------------|-------------|----------|
 | `tstudio_zpatch_ls_kiiya_mrpd` | Los Santos Kiiya MRPD | Enhanced police station |
+| `tstudio_zpatch_ls_th_kiiya_mrpd` | Los Santos TH Kiiya MRPD | TH enhanced LS police |
 | `tstudio_zpatch_mrpark_fm_mrpd` | MrPark FM MRPD | Police department integration |
 | `tstudio_zpatch_mrpark_kiiya_mrpd` | MrPark Kiiya MRPD | Combined police features |
 | `tstudio_zpatch_mrpark_ls_fm_mrpd` | MrPark LS FM MRPD | Los Santos police integration |
 | `tstudio_zpatch_mrpark_ls_kiiya_mrpd` | MrPark LS Kiiya MRPD | Advanced police features |
 | `tstudio_zpatch_mrpark_ls_th_fm_mrpd` | MrPark LS TH FM MRPD | Multi-variant police patch |
+| `tstudio_zpatch_mrpark_ls_th_kiiya_mrpd` | MrPark LS TH Kiiya MRPD | Ultimate police combination |
 | `tstudio_zpatch_mrpark_th_fm_mrpd` | MrPark TH FM MRPD | TH police department |
+| `tstudio_zpatch_mrpark_th_kiiya_mrpd` | MrPark TH Kiiya MRPD | TH enhanced police |
+| `tstudio_zpatch_th_kiiya_mrpd` | TH Kiiya MRPD | Basic TH police variant |
+
+### 🍕 Kebab + MRPD Combination Patches
+
+| Patch Name | Description | Features |
+|------------|-------------|----------|
+| `tstudio_zpatch_kebab_kiiya_mrpd` | Kebab + Kiiya MRPD | Food service with police |
+| `tstudio_zpatch_kebab_th_kiiya_mrpd` | Kebab + TH Kiiya MRPD | Enhanced food + police combo |
+| `tstudio_zpatch_ls_kebab_kiiya_mrpd` | LS Kebab + Kiiya MRPD | Los Santos food + police |
+| `tstudio_zpatch_ls_th_kebab_kiiya_mrpd` | LS TH Kebab + Kiiya MRPD | Ultimate LS food + police |
+| `tstudio_zpatch_mrpark_kebab_kiiya_mrpd` | MrPark Kebab + Kiiya MRPD | MrPark food + police combo |
+| `tstudio_zpatch_mrpark_kebab_th_kiiya_mrpd` | MrPark Kebab + TH Kiiya MRPD | Enhanced MrPark combo |
+| `tstudio_zpatch_mrpark_ls_kebab_kiiya_mrpd` | MrPark LS Kebab + Kiiya MRPD | Full feature combination |
+| `tstudio_zpatch_mrpark_ls_kebab_th_kiiya_mrpd` | MrPark LS Kebab + TH Kiiya MRPD | Ultimate feature combo |
 
 ### Medical & Hospital Patches
 
