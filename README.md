@@ -4,10 +4,10 @@ A collection of map patches specifically designed for **TStudio Maps**, providin
 
 ## Overview
 
-This repository contains **40+ map patches** that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
+This repository contains **41+ map patches** that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
 
 ### 📊 **Patch Categories**
-- **🏛️ MRPD Patches**: 11 police department variations
+- **🏛️ MRPD Patches**: 12 police department variations
 - **🍕 Kebab+MRPD Combos**: 8 food service + police combinations
 - **🏠 MrPark Area**: 10 location-specific patches  
 - **🏥 Medical/Hospital**: 4 Pillbox Hospital variants
@@ -76,6 +76,7 @@ ensure [tstudio_maps]
 
 | Patch Name | Description | Features |
 |------------|-------------|----------|
+| `tstudio_zpatch_ls_fm_mrpd` | Los Santos FM MRPD | LS FM police station |
 | `tstudio_zpatch_ls_kiiya_mrpd` | Los Santos Kiiya MRPD | Enhanced police station |
 | `tstudio_zpatch_ls_th_kiiya_mrpd` | Los Santos TH Kiiya MRPD | TH enhanced LS police |
 | `tstudio_zpatch_mrpark_fm_mrpd` | MrPark FM MRPD | Police department integration |
