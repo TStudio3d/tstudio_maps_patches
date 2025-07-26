@@ -3,7 +3,7 @@ lua54 'yes'
 game 'gta5'
 
 author 'tstudio'
-description 'Pillbox & Kebab fix'
+description 'Fix for Missionrow Park & Tropical Heights & FM MRPD'
 version '1.0.0'
 
 this_is_a_map 'yes'
