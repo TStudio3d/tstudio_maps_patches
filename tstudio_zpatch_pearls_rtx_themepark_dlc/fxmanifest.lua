@@ -3,7 +3,7 @@ lua54 'yes'
 game 'gta5'
 
 author 'tstudio'
-description 'Fix for Pearls Resort & RTX Themepark'
+description 'Fix for Pearls Resort & RTX Themepark DLC'
 version '1.0.0'
 
 this_is_a_map 'yes'
