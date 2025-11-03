@@ -4,15 +4,17 @@ A collection of map patches specifically designed for **TStudio Maps**, providin
 
 ## Overview
 
-This repository contains **41+ map patches** that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
+This repository contains **58+ map patches** that work exclusively with **TStudio Maps** and require the `tstudio_zmapdata` resource. Each patch is designed to fix collision issues, improve gameplay areas, and enhance the overall server experience. These patches are automatically managed by the TStudio system and should not be manually started.
 
 ### 📊 **Patch Categories**
-- **🏛️ MRPD Patches**: 12 police department variations
-- **🍕 Kebab+MRPD Combos**: 8 food service + police combinations
+- **🏛️ MRPD Patches**: 15 police department variations
+- **🍕 Kebab+MRPD Combos**: 11 food service + police combinations
 - **🏠 MrPark Area**: 10 location-specific patches  
 - **🏥 Medical/Hospital**: 4 Pillbox Hospital variants
-- **🏭 General Locations**: 4 miscellaneous area fixes
+- **🏭 General Locations**: 5 miscellaneous area fixes
 - **🏁 Opium Area**: 3 racing and investigation patches
+- **🌊 Pearls Water Patches**: 4 water compatibility fixes
+- **🎢 Theme Park Patches**: 2 RTX themepark variants
 
 ## 📋 Requirements
 
@@ -118,6 +120,22 @@ ensure [tstudio_maps]
 | `tstudio_zpatch_opium_lsis` | Opium LSIS area | Investigation support |
 | `tstudio_zpatch_opium_racetrack` | Opium racetrack | Racing venue |
 | `tstudio_zpatch_opium_racetrack_lsis` | Opium racetrack (LSIS) | Combined features |
+
+### 🌊 Pearls Water Patches
+
+| Patch Name | Description | Features |
+|------------|-------------|----------|
+| `tstudio_zpatch_pearls_ambitioneers_roxwood_water` | Pearls Ambitioneers Roxwood water fix | Water compatibility |
+| `tstudio_zpatch_pearls_fiv3dev_bluffs_water` | Pearls Fiv3Dev Bluffs water fix | Water optimization |
+| `tstudio_zpatch_pearls_fiv3dev_bluffs_water` | Pearls Fiv3Dev Bluffs water patch | Enhanced water rendering |
+| `tstudio_zpatch_pearls_rtx_themepark` | Pearls RTX Themepark compatibility | Theme park water features |
+
+### 🎢 Theme Park & Resort Patches
+
+| Patch Name | Description | Features |
+|------------|-------------|----------|
+| `tstudio_zpatch_pearls_rtx_themepark` | Pearls RTX Themepark | Theme park integration |
+| `tstudio_zpatch_pearls_rtx_themepark_dlc` | Pearls RTX Themepark DLC | DLC compatibility |
 
 ## File Types
 
