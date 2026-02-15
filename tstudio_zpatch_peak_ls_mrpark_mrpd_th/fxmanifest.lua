@@ -3,7 +3,7 @@ lua54 'yes'
 game 'gta5'
 
 author 'tstudio'
-description 'Peak LS MrPark MRPD Tropical Heights fix'
+description 'Peak LS, mrpark, mrpd, Tropical Heights, kebab Fix'
 version '1.0.0'
 
 this_is_a_map 'yes'
