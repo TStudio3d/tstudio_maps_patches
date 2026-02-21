@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-name 'tstudio_zpatch_peak_fleeca'
-description 'Fix for Peak Towers & Fleeca'
+name 'tstudio_zpatch_peak_addon_tattoo'
+description 'Fix for Peak Towers & Tattoo'
 author 'TStudio'
 version '1.0.0'
 
