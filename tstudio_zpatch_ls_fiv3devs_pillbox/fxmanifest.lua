@@ -2,9 +2,9 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-name 'tstudio_zpatch_kebab_fiv3devs_pillbox'
+name 'tstudio_zpatch_ls_fiv3devs_pillbox'
 author 'TStudio'
-description 'Fix for Kebab King & Fiv3Devs Pillbox'
+description 'Fix for Legion Square & Fiv3Devs Pillbox'
 version '1.0.0'
 
 this_is_a_map 'yes'
