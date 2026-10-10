@@ -3,7 +3,7 @@ game 'gta5'
 this_is_a_map 'yes'
 
 author 'TStudio'
-description 'LOD lights for the patch combination tstudio_zpatch_marlowecrest_japanese, tstudio_zpatch_marlowecrest_lacima_japanese (game builds below 3717). Started automatically by tstudio_zmapdata - do not ensure it in server.cfg.'
+description 'LOD lights for tstudio_marlowecrest_estate, tstudio_ext_japanese_mansion (game builds below 3717). Started automatically by tstudio_zmapdata - do not ensure it in server.cfg.'
 version '1.0.0'
 
 -- Read by tstudio_zmapdata/server/patch_loader.lua: which game builds this set is for.
