@@ -3,7 +3,7 @@ game 'gta5'
 this_is_a_map 'yes'
 
 author 'TStudio'
-description 'LOD lights for tstudio_ext_yakuza_mansion (game build 3717 and newer). Started automatically by tstudio_zmapdata - do not ensure it in server.cfg.'
+description 'LOD lights for tstudio_ext_japanese_mansion (game build 3717 and newer). Started automatically by tstudio_zmapdata - do not ensure it in server.cfg.'
 version '1.0.0'
 
 -- Read by tstudio_zmapdata/server/patch_loader.lua: which game builds this set is for.
