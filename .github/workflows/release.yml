@@ -1,0 +1,31 @@
+name: Release
+
+# The patches ship straight from this repo, not through the Cfx.re portal, so a
+# release here only has to announce itself: the same green go-live card the map
+# repos post, with the service bot's "Post to #changelog" button.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Post the card again for an existing release tag, e.g. v1.0.0'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
+
+      - name: Post the go-live card to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag || github.event.release.tag_name }}
+        run: node .github/scripts/discord-release.mjs
